@@ -1,7 +1,7 @@
 ﻿# azure-functions-host-repro
  
 ## Setup
-Add a ServiceBus ConnectionString to "ServiceBusConnection" in `local.settings.json`
+Add a ServiceBus ConnectionString to `ServiceBusConnection` in `local.settings.json`. The ServiceBus should have a queue named `myqueue`.
 
 ## Reproduction
 1. Run this project, and call the HttpFunction, and everything should work as expected
