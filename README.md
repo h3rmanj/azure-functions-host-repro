@@ -1,4 +1,4 @@
-﻿# azure-functions-host-repro
+﻿# [ServiceBusTrigger breaks Dependency Injection](https://github.com/Azure/azure-functions-host/issues/4760)
  
 ## Setup
 Add a ServiceBus ConnectionString to `ServiceBusConnection` in `local.settings.json`. The ServiceBus should have a queue named `myqueue`.
